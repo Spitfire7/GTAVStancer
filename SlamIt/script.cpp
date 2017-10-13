@@ -111,7 +111,7 @@ void patchHeightReset() {
 
 	uintptr_t result;
 	uintptr_t offset;
-	if (getGameVersion() == VER_1_0_505_2_NOSTEAM) {
+	if (getGameVersion() == VER_1_0_877_1_NOSTEAM) {
 		result = BytePattern((BYTE*)
 							 "\xF3\x0F\x11\x43\x24"
 							 "\xF3\x0F\x11\x5B\x28"
